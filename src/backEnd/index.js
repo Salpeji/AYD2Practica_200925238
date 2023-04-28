@@ -1,6 +1,11 @@
 const express = require('express');
 const morgan = require('morgan');
 const {json, urlencoded} = express;
+const mysql = require('mysql');
+const myConnection = require('express-myconnection');
+
+//importando ruotes
+const rutasControlador = require('../routes/controlador.js')
 
 //init
 const app =  express();
@@ -14,12 +19,16 @@ app.set('port', process.env.PORT || 4000);
 
 //Middlewarres
 app.use(morgan('dev'));
-
-//Global Variables
-//app.use(require('../backEnd/database.js'));
+app.use(myConnection(mysql, {
+    host:'localhost',
+    database:'pelicula',
+    user: 'root', 
+    password: 'Sam26',
+    port: 3306
+}, 'single'));
 
 //Routes
-app.use(require('../routes/controlador.js'));
+app.use('/',rutasControlador);
 
 //Public
 
