@@ -16,10 +16,10 @@ app.set('port', process.env.PORT || 4000);
 app.use(morgan('dev'));
 
 //Global Variables
-
+//app.use(require('../backEnd/database.js'));
 
 //Routes
-app.use(require('../routes'));
+app.use(require('../routes/controlador.js'));
 
 //Public
 

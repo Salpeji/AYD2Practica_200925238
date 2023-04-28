@@ -17,6 +17,7 @@ router.get('/verPeli_ady2', (req, res) => {
 })
 
 router.get('/actualizarPeli_ady2', (req, res) => {
+    
     res.send("Hola --> actualiza --> ");
 })
 
