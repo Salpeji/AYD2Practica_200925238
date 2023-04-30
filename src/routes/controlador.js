@@ -17,7 +17,7 @@ router.post('/crearPelicula_ady2', (req, res) => {
     breveDescripcion = req.body.breveDescripcion;
     let dtoPeliculaNueva = req.body;*/
     req.getConnection((err, conn)=>{
-        conn.query(`INSERT INTO pelicula (nombre,clasificacion,genero,brevedescripcion) VALUES('${req.body.nombre}','${req.body.clasificacion}','${req.body.genero}','${req.body.breveDescripcion}')`, (err, pelicula)=>{
+        conn.query(`INSERT INTO pelicula (nombre,aniolanzamiento,clasificacion,genero,brevedescripcion) VALUES('${req.body.nombre}','${req.body.aniolanzamiento}','${req.body.clasificacion}','${req.body.genero}','${req.body.breveDescripcion}')`, (err, pelicula)=>{
             if(err){
                 return res.send(err);
             }
