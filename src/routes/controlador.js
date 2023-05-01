@@ -64,15 +64,23 @@ router.delete('/eliminarPeli_ady2', (req, res) => {
 })
 
 router.get('/nombre', (req,res) => {
-    nombre = req.body.nombre;
-    res.json({nombre})
-    res.send("My Student ...<--");
+    req.getConnection((err, conn)=>{
+        if(err){
+            return res.send(err);
+        }
+        res.json({"mensaje":"Mi nombre es Samuel Alberto Perez Jimenez, Estudiante EPS Sistemas, Electronica"})
+        res.send("Yo soy estudiante ...<--");
+     })
 })
 
 router.get('/carnet', (req,res) => {
-    carnet = req.body.carnet;
-    res.json({carnet});
-    res.send("Mi carnet de estudiante...<--");
+    req.getConnection((err, conn)=>{
+        if(err){
+            return res.send(err);
+        }
+        res.json({"mensaje":"Mi carnet es 200925238, estudiante USAC, ECYS"})
+        res.send("mi Numero de Carnet: 200925238");
+     })    
 })
 
 module.exports = router;
