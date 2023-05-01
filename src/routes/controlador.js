@@ -8,14 +8,8 @@ const { application, response } = require('express');
 //app.use(bodyParser.urlencoded({ extended: false}))
 //app.use(bodyParser.json());
 
-// rutas CRUD
+// crear
 router.post('/crearPelicula_ady2', (req, res) => {
-    /*nombre = req.body.nombre;
-    anioLanzar = req.body.anioLanzar;
-    clasificacion = req.body.clasificacion;
-    genero = req.body.genero;
-    breveDescripcion = req.body.breveDescripcion;
-    let dtoPeliculaNueva = req.body;*/
     req.getConnection((err, conn)=>{
         conn.query(`INSERT INTO pelicula (nombre,aniolanzamiento,clasificacion,genero,brevedescripcion) VALUES('${req.body.nombre}','${req.body.aniolanzamiento}','${req.body.clasificacion}','${req.body.genero}','${req.body.breveDescripcion}')`, (err, pelicula)=>{
             if(err){
@@ -26,6 +20,7 @@ router.post('/crearPelicula_ady2', (req, res) => {
      })
 })
 
+//ver todas la peliculas
 router.get('/verPeli_ady2', (req, res) => {
     var pelicula;
     //res.json({scriptData});
@@ -34,20 +29,54 @@ router.get('/verPeli_ady2', (req, res) => {
            if(err){
                return res.send(err);
            }
-            //req.json({pelicula});
             console.log(pelicula);
             res.json(pelicula);
        }) 
     })
 });
 
-router.get('/actualizarPeli_ady2', (req, res) => {
-    res.send("Hola --> actualiza --> ");
+//actualizar
+router.patch('/actualizarPeli_ady2', (req, res) => {
+    req.getConnection((err, conn)=>{
+        conn.query('update pelicula set' + req.body.aniolanzamiento + '=' + req.body.valCambio + 'where idPeli = ' + req.body.idPeli, (err, pelicula)=>{
+            if(err){
+                return res.send(err);
+            }
+            console.log(req.body.valCambio);
+            res.json({"mensaje":"Exito, Se actualizo registro" + req.body.aniolanzamiento + "de IdPelicula" + req.body.idPeli + " correctamente"});
+        })
+     })
 })
 
-router.get('/eliminarPeli_ady2', (req, res) => {
-    res.send("Hola --> elimina --> ");
+
+
+//eliminar
+router.delete('/eliminarPeli_ady2', (req, res) => {
+    req.getConnection((err, conn)=>{
+        conn.query('delete from pelicula.pelicula where pelicula.pelicula.idPeli = ' + req.body.idPeli, (err, pelicula)=>{
+            if(err){
+                return res.send(err);
+            }
+            console.log(req.body.idPeli);
+            res.json({"mensaje":"exito se elimino " + req.body.idPeli + " correctamente"});
+        })
+     })
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 router.get('/nombre', (req,res) => {
     nombre = req.body.nombre;
