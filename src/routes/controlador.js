@@ -38,12 +38,12 @@ router.get('/verPeli_ady2', (req, res) => {
 //actualizar
 router.patch('/actualizarPeli_ady2', (req, res) => {
     req.getConnection((err, conn)=>{
-        conn.query('update pelicula set' + req.body.aniolanzamiento + '=' + req.body.valCambio + 'where idPeli = ' + req.body.idPeli, (err, pelicula)=>{
+        conn.query('update pelicula set ' + req.body.nombreTupla + ' = ' + "\"" +req.body.regCambio+ "\""  + ' where idPeli = ' + req.body.idPeli, (err, pelicula)=>{
             if(err){
                 return res.send(err);
             }
             console.log(req.body.valCambio);
-            res.json({"mensaje":"Exito, Se actualizo registro" + req.body.aniolanzamiento + "de IdPelicula" + req.body.idPeli + " correctamente"});
+            res.json({"mensaje":"Exito, Se actualizo registro " + req.body.nombreTupla + " de IdPelicula " + req.body.idPeli + " correctamente"});
         })
      })
 })
@@ -62,21 +62,6 @@ router.delete('/eliminarPeli_ady2', (req, res) => {
         })
      })
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 router.get('/nombre', (req,res) => {
     nombre = req.body.nombre;
