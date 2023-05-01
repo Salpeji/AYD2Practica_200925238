@@ -50,3 +50,15 @@
 ]
 
     'UPDATE `users` '              +              'SET `name` = ?, `role` = ? '                  +               'WHERE `id` = ?';
+
+
+
+
+------------- para corrrer el servidor
+npm run dev 
+
+------------- para hacer un commit en github.
+git status
+git add .
+git commit -m "aqui va el mensaje sobre el commit"
+git push -u origin master
