@@ -1,0 +1,52 @@
+[
+    {
+        "idPeli": 15,
+        "nombre": "zombies",
+        "aniolanzamiento": "3090",
+        "clasificacion": "terror",
+        "genero": "carros",
+        "brevedescripcion": "ciencia ficcion y romanticos en accion"
+    },
+    {
+        "idPeli": 16,
+        "nombre": "placer",
+        "aniolanzamiento": "20222",
+        "clasificacion": "romantica",
+        "genero": "familia",
+        "brevedescripcion": "sexo, vocabulario indiscreto"
+    },
+    {
+        "idPeli": 17,
+        "nombre": "el amor",
+        "aniolanzamiento": "20222",
+        "clasificacion": "romantica",
+        "genero": "familia",
+        "brevedescripcion": "es una pelicula triste de amor y de sentimientos"
+    },
+    {
+        "idPeli": 18,
+        "nombre": "marciamos",
+        "aniolanzamiento": "2010",
+        "clasificacion": "terror",
+        "genero": "Ficcion",
+        "brevedescripcion": "es algo que no se encuentra en el esapcio y hay mucha dudas"
+    },
+    {
+        "idPeli": 19,
+        "nombre": "insesto",
+        "aniolanzamiento": "2019",
+        "clasificacion": "accion",
+        "genero": "sexo",
+        "brevedescripcion": "familia, sexo, depravacion"
+    },
+    {
+        "idPeli": 20,
+        "nombre": "zombies",
+        "aniolanzamiento": "2023",
+        "clasificacion": "miedo",
+        "genero": "familia",
+        "brevedescripcion": "personas con enfermedades y infecciones de pandemia"
+    }
+]
+
+    'UPDATE `users` '              +              'SET `name` = ?, `role` = ? '                  +               'WHERE `id` = ?';
