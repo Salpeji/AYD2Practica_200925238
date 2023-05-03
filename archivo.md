@@ -68,3 +68,10 @@ Tanto como vista en locust asi en la parte de postman.Y como una vista la parte 
 Para la 2da. prueba de estres tenemos la parte de concurrencia con la siguiente imagen de prueba.
 ![image](https://user-images.githubusercontent.com/15185688/236052683-6f25f419-a792-4863-a900-2238c986d93d.png)
 
+
+pruebas de estres para el 2do. flujo del endpoint ya corriendo.
+![image](https://user-images.githubusercontent.com/15185688/236053147-9ab26aa5-0853-484d-a39d-11752a504577.png)
+
+![image](https://user-images.githubusercontent.com/15185688/236053261-356fac97-9060-4c02-b90b-c618a79a812c.png)
+
+
