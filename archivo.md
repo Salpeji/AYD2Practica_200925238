@@ -49,3 +49,7 @@ Para esta parte se genera el .GET
 
 Se genera un .GET 
 
+![image](https://user-images.githubusercontent.com/15185688/236050950-ee3b79d3-12d8-420b-a2d5-87053928d16e.png)
+
+en nuestra ultima prueba de estres podemos validar que son pruebas generales para las cargas en cada peticione de ellos.
+
