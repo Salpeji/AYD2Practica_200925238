@@ -20,3 +20,12 @@ para una solicitud de 500 peticiones es decir request.
 
 Con esta parte tenemos las pruebas a nivel de grafico sobre las valiciones a aceptar pruebas de estres.
 ![image](https://user-images.githubusercontent.com/15185688/236047904-2de7ae89-996b-476d-8980-ece2859c0d5b.png)
+
+
+Despues de correr con la 3era. prueba se procede a efectuar la 4ta con esta parte se tiene las peticiones solicitadas
+por cada validacion asi mismo con la peticion de 500 peticiones sobre las valiciones indicadas.
+![image](https://user-images.githubusercontent.com/15185688/236048522-53237e4b-8a11-456b-b5f1-79cb7ad7ae08.png)
+
+
+En este apartado podemos apreciar las validaciones sobre locus corriendo por las peticiones solicitadas para cada parte.
+![image](https://user-images.githubusercontent.com/15185688/236048718-62cc9051-45b0-44a0-88d0-3838573f228f.png)
