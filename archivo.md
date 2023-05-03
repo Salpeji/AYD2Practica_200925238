@@ -55,3 +55,11 @@ en nuestra ultima prueba de estres podemos validar que son pruebas generales par
 
 Para este caso se generan pruebas de estres con una concurrencia de 10, peticion de 500 y un tiempo de 5 seg.
 ![image](https://user-images.githubusercontent.com/15185688/236051644-66ed67ad-faa6-47f7-b461-946bd5046c18.png)
+
+
+Tambien se adjuntan validaciones para al redireccionamiento del endpoint sobre los registros a visualizar
+
+![image](https://user-images.githubusercontent.com/15185688/236051910-5b228210-18c7-4bf9-8523-efb551f76196.png)
+![image](https://user-images.githubusercontent.com/15185688/236051943-55548127-d6e0-489b-a226-0928e0c04d42.png)
+Tanto como vista en locust asi en la parte de postman.
+
