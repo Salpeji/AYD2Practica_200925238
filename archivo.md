@@ -74,4 +74,26 @@ pruebas de estres para el 2do. flujo del endpoint ya corriendo.
 
 ![image](https://user-images.githubusercontent.com/15185688/236053261-356fac97-9060-4c02-b90b-c618a79a812c.png)
 
+Validacion de la ultima prueba de estres con la que se genera la parte de 10000 request, a una concurrencia de 20 y un tiempo de 5 seg.
+![image](https://user-images.githubusercontent.com/15185688/236053824-978a4955-5805-4e84-b692-027ce9bbe961.png)
+
+
+En tabulacion resumen en tabla:
+
+![image](https://user-images.githubusercontent.com/15185688/236054313-3193a3e9-f4f2-4892-8c9e-df961345f0a7.png)
+
+
+
+Y un breve resumen en los graficos de validaciones.
+![image](https://user-images.githubusercontent.com/15185688/236054348-58adc6d2-0756-4e71-b5fc-945d2df93e7f.png)
+
+
+Y el grafico de pruebas de estres para 10000 request, 20 concurrency y 5 seg. 
+![image](https://user-images.githubusercontent.com/15185688/236054500-05c6fe01-c82e-4e19-897b-a322568e9563.png)
+
+![image](https://user-images.githubusercontent.com/15185688/236054606-a5623d05-aa9f-46f8-a302-76a226019c6c.png)
+
+En conclucion podemos decir que.
+
+
 
