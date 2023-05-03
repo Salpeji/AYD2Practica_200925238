@@ -64,3 +64,7 @@ Tambien se adjuntan validaciones para al redireccionamiento del endpoint sobre l
 Tanto como vista en locust asi en la parte de postman.Y como una vista la parte del grafico en ella:
 
 ![image](https://user-images.githubusercontent.com/15185688/236052264-a6920168-b3cb-4438-9374-21b020e9e891.png)
+
+Para la 2da. prueba de estres tenemos la parte de concurrencia con la siguiente imagen de prueba.
+![image](https://user-images.githubusercontent.com/15185688/236052683-6f25f419-a792-4863-a900-2238c986d93d.png)
+
