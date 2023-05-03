@@ -4,4 +4,12 @@ Practica unica de ayd2_200925238 1er. semestre 2023 creacion de 3 endpoint, desa
 
 ![image](https://user-images.githubusercontent.com/15185688/236043771-10799258-e0b3-4ad9-be05-dddc6424e5b8.png)
 
-Pruenas con una concurrencia de 10 y maximas peticiones de 500 regitros a una solictud de 5 seg.
+Pruebas con una concurrencia de 10 y maximas peticiones de 500 regitros a una solictud de 5 seg.
+
+![image](https://user-images.githubusercontent.com/15185688/236044541-24031106-847c-4469-936f-d2ff973af5e6.png)
+
+Resumen en creacion de peliculas co una revolucion por segundo sobre 56.8%. De la misma forma
+acontinuacions se observa el grafico sobre sus peticiones.
+
+![image](https://user-images.githubusercontent.com/15185688/236045150-4fd14f51-8e0b-4725-a556-dc8d29427224.png)
+
