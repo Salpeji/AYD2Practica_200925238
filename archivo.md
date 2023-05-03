@@ -17,3 +17,6 @@ Se efectuan ahora pruebas de estres para registos con una concurrencia sobre los
 para una solicitud de 500 peticiones es decir request.
 
 ![image](https://user-images.githubusercontent.com/15185688/236047658-fe6d988e-f3f6-47de-84c6-88c085ccaf73.png)
+
+Con esta parte tenemos las pruebas a nivel de grafico sobre las valiciones a aceptar pruebas de estres.
+![image](https://user-images.githubusercontent.com/15185688/236047904-2de7ae89-996b-476d-8980-ece2859c0d5b.png)
