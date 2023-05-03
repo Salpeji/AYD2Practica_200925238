@@ -61,5 +61,6 @@ Tambien se adjuntan validaciones para al redireccionamiento del endpoint sobre l
 
 ![image](https://user-images.githubusercontent.com/15185688/236051910-5b228210-18c7-4bf9-8523-efb551f76196.png)
 ![image](https://user-images.githubusercontent.com/15185688/236051943-55548127-d6e0-489b-a226-0928e0c04d42.png)
-Tanto como vista en locust asi en la parte de postman.
+Tanto como vista en locust asi en la parte de postman.Y como una vista la parte del grafico en ella:
 
+![image](https://user-images.githubusercontent.com/15185688/236052264-a6920168-b3cb-4438-9374-21b020e9e891.png)
