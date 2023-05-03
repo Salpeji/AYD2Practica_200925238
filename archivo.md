@@ -29,3 +29,11 @@ por cada validacion asi mismo con la peticion de 500 peticiones sobre las valici
 
 En este apartado podemos apreciar las validaciones sobre locus corriendo por las peticiones solicitadas para cada parte.
 ![image](https://user-images.githubusercontent.com/15185688/236048718-62cc9051-45b0-44a0-88d0-3838573f228f.png)
+
+Aca podemos apreciar la salida que genera genera el endpoint para el /nombre sobre el cual nos retorna un mensaje sobre el dato
+principal de estudiante:
+
+![image](https://user-images.githubusercontent.com/15185688/236049327-712db7dd-55e8-4efa-aedc-5155dd14fb86.png)
+
+En esta otra parte se genera las pruebas sobre las peticiones para cada uno de ellos.
+![image](https://user-images.githubusercontent.com/15185688/236049600-9171fd55-2587-4f28-8c59-bdc242e57cbe.png)
