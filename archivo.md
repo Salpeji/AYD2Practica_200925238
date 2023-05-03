@@ -53,3 +53,5 @@ Se genera un .GET
 
 en nuestra ultima prueba de estres podemos validar que son pruebas generales para las cargas en cada peticione de ellos.
 
+Para este caso se generan pruebas de estres con una concurrencia de 10, peticion de 500 y un tiempo de 5 seg.
+![image](https://user-images.githubusercontent.com/15185688/236051644-66ed67ad-faa6-47f7-b461-946bd5046c18.png)
