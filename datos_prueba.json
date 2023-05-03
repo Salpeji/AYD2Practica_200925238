@@ -52,7 +52,7 @@
     'UPDATE `users` '              +              'SET `name` = ?, `role` = ? '                  +               'WHERE `id` = ?';
 
 
-
+*.- Nota correr todo a nivel de "200925238_practicaUnica>"
 
 ------------- para corrrer el servidor
 npm run dev 
@@ -65,4 +65,4 @@ git push -u origin master
 
 
 ------ para correr locust
-http://localhost:4000/verPeli_ady2
+locust -f C:\Users\samue\Desktop\200925238_practicaUnica\locustfile.py
