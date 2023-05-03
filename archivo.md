@@ -37,3 +37,15 @@ principal de estudiante:
 
 En esta otra parte se genera las pruebas sobre las peticiones para cada uno de ellos.
 ![image](https://user-images.githubusercontent.com/15185688/236049600-9171fd55-2587-4f28-8c59-bdc242e57cbe.png)
+
+
+
+Para esta parte se genera el .GET 
+
+![image](https://user-images.githubusercontent.com/15185688/236050469-a468674a-093b-4b0e-a931-9e590aea8f65.png)
+
+
+![image](https://user-images.githubusercontent.com/15185688/236050658-6a2c5c6f-89c4-47cb-b3e0-20d3c70dce57.png)
+
+Se genera un .GET 
+
