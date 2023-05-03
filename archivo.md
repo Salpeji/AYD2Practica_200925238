@@ -13,3 +13,7 @@ acontinuacions se observa el grafico sobre sus peticiones.
 
 ![image](https://user-images.githubusercontent.com/15185688/236045150-4fd14f51-8e0b-4725-a556-dc8d29427224.png)
 
+Se efectuan ahora pruebas de estres para registos con una concurrencia sobre los 10 en un tiempo de 5 seg.
+para una solicitud de 500 peticiones es decir request.
+
+![image](https://user-images.githubusercontent.com/15185688/236047658-fe6d988e-f3f6-47de-84c6-88c085ccaf73.png)
