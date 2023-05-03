@@ -62,3 +62,7 @@ git status
 git add .
 git commit -m "aqui va el mensaje sobre el commit"
 git push -u origin master
+
+
+------ para correr locust
+http://localhost:4000/verPeli_ady2
