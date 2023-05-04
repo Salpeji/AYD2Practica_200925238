@@ -22,6 +22,9 @@ para una solicitud de 500 peticiones es decir request.
 
 ![image](https://user-images.githubusercontent.com/15185688/236047658-fe6d988e-f3f6-47de-84c6-88c085ccaf73.png)
 
+Procediendo con la 2da prueba de estres podemos ver los parametros:
+![image](https://user-images.githubusercontent.com/15185688/236241188-6f9ea150-37c7-46a0-b6a0-a952ad35359d.png)
+
 Con esta parte tenemos las pruebas a nivel de grafico sobre las valiciones a aceptar pruebas de estres.
 ![image](https://user-images.githubusercontent.com/15185688/236047904-2de7ae89-996b-476d-8980-ece2859c0d5b.png)
 
