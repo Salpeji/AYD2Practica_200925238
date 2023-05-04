@@ -1,5 +1,6 @@
 # DESCRIPCION DE MICROSERVICIOS 
 Practica unica de ayd2_200925238 1er. semestre 2023 creacion de 3 endpoint, desarrollo de micro-servicios, CRUD,  /nombre, /carnet y validaciones.
+Se desarrollaron 4 endpoint sobre estos son delete, patch, update, get y post para alos endpoint sobre los cuales se efecuan pruebas desde postman con salida de status 200 ok. 
 
 # CAPTURAS DE LAS PRUEBAS DE ESTRÉS Y EXPLICACION DE CADA PRUEBA
 Para esta parte tomamos la parte donde vemos las pelicuales siendo:
