@@ -107,6 +107,6 @@ Y el grafico de pruebas de estres para 10000 request, 20 concurrency y 5 seg.
 
 # CONCLUSIÓN DE LAS PRUEBAS DE ESTRÉS.
   Ocurre una saturacion de peticiones en una ●Peticion de:10000 concurrency:20 timeout: 5 con esto quiere decir segun locust que los servicios seran estresados de tal forma que seran refrezcados con una ● maxRequest:1000 concurrency:10 timeout: 5 y con esta sera operados de forma estandar siendo:
-● maxRequest:500 concurrency:10 timeout: 5 la parte mas optima para el microservicio con respecto alas pruebas de estres con locust.
+● maxRequest:500 concurrency:10 timeout: 5 la parte mas optima para el microservicio con respecto alas pruebas de estres con locust. Entre las pruebas de estres podemos validar que la concurrencia sobre cada uno tiene los primeros 2 de 10 y el ultimo de 20 sobre el cual se considera con un tiempo para las 3 pruebas de 5 seg. con una peticion de tipo request para 500 sobre la primera con un 56.8% de estres mientas que para el 2do. 1000 peticiones es decir request de 62.8% sobre la saturacion o estrés de la petacion y por ultimo con una saturacion sobre las peticiones de 10000 con tiempo de 5 seg. para una concurrencia de 10000 un 86.4% sobre la saturacion o pruebas de estrés. Podemos indicar que el tiempo es el mismo con todos y mejor con la peticion sobre 500 en cada uno.
 
 
