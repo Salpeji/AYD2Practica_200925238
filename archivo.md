@@ -1,6 +1,10 @@
 # AYD2Practica_200925238
 Practica unica de ayd2_200925238 1er. semestre 2023 creacion de 3 endpoint, desarrollo de micro-servicios, CRUD,  /nombre, /carnet y validaciones.
 
+Para esta parte tomamos la parte donde vemos las pelicuales siendo:
+![image](https://user-images.githubusercontent.com/15185688/236240121-137f7990-650b-4ea9-bfbc-3361f09d06a7.png)
+estos los parametros para la concurrencia.
+
 # Capturas de las pruebas de estrés y Explicacion de cada Prueba
 ![image](https://user-images.githubusercontent.com/15185688/236043771-10799258-e0b3-4ad9-be05-dddc6424e5b8.png)
 
