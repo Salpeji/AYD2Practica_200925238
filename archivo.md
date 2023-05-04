@@ -3,7 +3,7 @@ Practica unica de ayd2_200925238 1er. semestre 2023 creacion de 4 endpoint y 2, 
 Se desarrollaron 4 endpoint sobre estos son delete, patch, update, get y post para alos endpoint sobre los cuales se efecuan pruebas desde postman.
 ![image](https://user-images.githubusercontent.com/15185688/236252014-e75ccb3f-50bd-42f4-a024-e08aafd475ad.png)
 Con las salidas de tipo status 200 ok. Se efectua una conexion a mysql corriendo en el puerto 4000 para el servidor de nodejs y para las pruebas de estrés locust en el puerto 8089, para la parte de donde se corre la conexion ala base de datos es 3306, podemos apreciar el diseño de implementacion sobre los ms de forma arquitectonica.
-![image](https://user-images.githubusercontent.com/15185688/236252364-484b8ce2-77da-44d6-b461-9081f685526d.png)
+![image](https://user-images.githubusercontent.com/15185688/236252364-484b8ce2-77da-44d6-b461-9081f685526d.png) depodemos indicar que con estos microservicios creados son /crearPelicula_ady2, /verPeli_ady2, /actualizarPeli_ady2, /eliminarPeli_ady2, /nombre y /carnet sobre el cual se desarrolla la parte de repositroy, service y controller, considerando los dto's, .js para conexion, instalacion en cli para nodejs, mysql, locust, la parte de configuracion de packague.js sobre el desarrollo 
 
 
 # CAPTURAS DE LAS PRUEBAS DE ESTRÉS Y EXPLICACIóN DE CADA PRUEBA
