@@ -1,5 +1,5 @@
 # DESCRIPCION DE MICROSERVICIOS 
-Practica unica de ayd2_200925238 1er. semestre 2023 creacion de 3 endpoint, desarrollo de micro-servicios, CRUD,  /nombre, /carnet y validaciones.
+Practica unica de ayd2_200925238 1er. semestre 2023 creacion de 4 endpoint y 2, desarrollo de micro-servicios, CRUD,  /nombre, /carnet y validaciones.
 Se desarrollaron 4 endpoint sobre estos son delete, patch, update, get y post para alos endpoint sobre los cuales se efecuan pruebas desde postman con salida de status 200 ok. Se efectua una conexion a mysql corriendo en el puerto 4000 para el servidor de nodejs y para las pruebas de estrés locust en el puerto 8089, para la parte de donde se corre la conexion ala base de datos es 3306
 
 # CAPTURAS DE LAS PRUEBAS DE ESTRÉS Y EXPLICACION DE CADA PRUEBA
