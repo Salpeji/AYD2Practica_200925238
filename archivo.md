@@ -1,7 +1,7 @@
 # AYD2Practica_200925238
 Practica unica de ayd2_200925238 1er. semestre 2023 creacion de 3 endpoint, desarrollo de micro-servicios, CRUD,  /nombre, /carnet y validaciones.
 
-
+# Capturas de las pruebas de estrés y Explicacion de cada Prueba
 ![image](https://user-images.githubusercontent.com/15185688/236043771-10799258-e0b3-4ad9-be05-dddc6424e5b8.png)
 
 Pruebas con una concurrencia de 10 y maximas peticiones de 500 regitros a una solictud de 5 seg.
@@ -93,9 +93,8 @@ Y el grafico de pruebas de estres para 10000 request, 20 concurrency y 5 seg.
 
 ![image](https://user-images.githubusercontent.com/15185688/236054606-a5623d05-aa9f-46f8-a302-76a226019c6c.png)
 
-En conclucion podemos decir que.
-
-Ocurre una saturacion de peticiones en una ●Peticion de:10000 concurrency:20 timeout: 5 con esto quiere decir segun locust que los servicios seran estresados de tal forma que seran refrezcados con una ● maxRequest:1000 concurrency:10 timeout: 5 y con esta sera operados de forma estandar siendo:
+#Conclusión de las pruebas de estrés.
+  Ocurre una saturacion de peticiones en una ●Peticion de:10000 concurrency:20 timeout: 5 con esto quiere decir segun locust que los servicios seran estresados de tal forma que seran refrezcados con una ● maxRequest:1000 concurrency:10 timeout: 5 y con esta sera operados de forma estandar siendo:
 ● maxRequest:500 concurrency:10 timeout: 5 la parte mas optima para el microservicio con respecto alas pruebas de estres con locust.
 
 
