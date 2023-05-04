@@ -1,4 +1,4 @@
-# DESCRIPCION DE MICROSERVICIOS 
+# DESCRIPCIÓN DE MICROSERVICIOS 
 Practica unica de ayd2_200925238 1er. semestre 2023 creacion de 4 endpoint y 2, desarrollo de micro-servicios, CRUD,  /nombre, /carnet y validaciones.
 Se desarrollaron 4 endpoint sobre estos son delete, patch, update, get y post para alos endpoint sobre los cuales se efecuan pruebas desde postman.
 ![image](https://user-images.githubusercontent.com/15185688/236252014-e75ccb3f-50bd-42f4-a024-e08aafd475ad.png)
@@ -6,7 +6,7 @@ Con las salidas de tipo status 200 ok. Se efectua una conexion a mysql corriendo
 ![image](https://user-images.githubusercontent.com/15185688/236252364-484b8ce2-77da-44d6-b461-9081f685526d.png)
 
 
-# CAPTURAS DE LAS PRUEBAS DE ESTRÉS Y EXPLICACION DE CADA PRUEBA
+# CAPTURAS DE LAS PRUEBAS DE ESTRÉS Y EXPLICACIóN DE CADA PRUEBA
 Para esta parte tomamos la parte donde vemos las pelicuales siendo:
 ![image](https://user-images.githubusercontent.com/15185688/236240121-137f7990-650b-4ea9-bfbc-3361f09d06a7.png)
 estos los parametros para la concurrencia.
